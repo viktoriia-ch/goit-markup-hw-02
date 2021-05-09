@@ -180,6 +180,10 @@ body {
     letter-spacing: 0.03em;
 }
 
+.active {
+    color: var(--accent-color);
+}
+
 /* END PORTFOLIO PAGE */
 
 /* FOOTER */
