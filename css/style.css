@@ -8,7 +8,6 @@
 
 body {
     font-family: var(--main-font);
-    background-color: #E5E5E5;
     color: var(--primary-text-color);
 }
 
@@ -77,6 +76,10 @@ body {
 
 /* HERO */
 
+.hero {
+    background-color: #2F303A;
+}
+
 .head-title {
     font-weight: 900;
     font-size: 44px;
@@ -88,6 +91,7 @@ body {
 }
 
 .modal-btn {
+    font-family: var(--main-font);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -121,6 +125,10 @@ body {
 /* END SECTION 1  */
 
 /* SECTION 3 */
+
+.team {
+    background-color: #F5F4FA;
+}
 
 .team-subtitle {
     font-weight: 500;
@@ -176,12 +184,19 @@ body {
 
 /* FOOTER */
 
+footer {
+    background-color: #2F303A;
+}
+
 footer .logo {
     color: #FFFFFF;
 }
 
-.map-link {
+.head-address {
     font-style: normal;
+}
+
+.map-link {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -190,7 +205,6 @@ footer .logo {
 }
 
 .address-link {
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
