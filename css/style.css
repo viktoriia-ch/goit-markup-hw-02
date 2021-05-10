@@ -72,6 +72,10 @@ body {
     color: var(--accent-color);
 }
 
+.active {
+    color: var(--accent-color);
+}
+
 /* END HEADER */
 
 /* HERO */
@@ -91,7 +95,7 @@ body {
 }
 
 .modal-btn {
-    font-family: var(--main-font);
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -151,6 +155,7 @@ body {
 /* PORTFOLIO PAGE */
 
 .btn {
+    font-family: inherit;
     background-color: #F5F4FA;
     font-weight: 500;
     font-size: 16px;
@@ -178,10 +183,6 @@ body {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
-}
-
-.active {
-    color: var(--accent-color);
 }
 
 /* END PORTFOLIO PAGE */
